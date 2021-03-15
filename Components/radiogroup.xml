@@ -1,0 +1,26 @@
+<showForOrderAhead
+    	jcr:primaryType="nt:unstructured"
+    	sling:resourceType="granite/ui/components/coral/foundation/form/radiogroup"
+    	name="./group"
+    	fieldLabel="Radio Grouo"
+    	vertical="{Boolean}true">
+    	<items jcr:primaryType="nt:unstructured">
+    		<all
+    			jcr:primaryType="nt:unstructured"
+            	checked="{Boolean}true"
+            	text="A"
+            	value="all"/>
+            <total
+    			jcr:primaryType="nt:unstructured"
+            	text="B"
+            	value="b"/>
+          <taxAndTotal
+              jcr:primaryType="nt:unstructured"
+              text="C"
+              value="c"/>
+          <itemTaxAndTotal
+              jcr:primaryType="nt:unstructured"
+              text="D"
+              value="d"/>
+    	</items>
+	</showForOrderAhead>
